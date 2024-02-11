@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="return validateForm()">
+        <div class="form-field">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-field">
+            <label for="mobile_number">Mobile Number:</label>
+            <input type="tel" id="mobile_number" name="mobile_number" required>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

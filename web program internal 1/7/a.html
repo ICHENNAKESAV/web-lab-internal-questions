@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Choose Your Background Color</h1>
+    <form id="color-form">
+        <label for="red">
+            <input type="radio" name="color" id="red" value="red"> Red
+        </label>
+        <label for="green">
+            <input type="radio" name="color" id="green" value="green"> Green
+        </label>
+        <label for="blue">
+            <input type="radio" name="color" id="blue" value="blue"> Blue
+        </label>
+        <button type="button" onclick="setBackgroundColor()">Set Color</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
